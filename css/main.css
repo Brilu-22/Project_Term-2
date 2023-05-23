@@ -33,6 +33,7 @@ nav li:hover{
 header{
  background-color: black;
  height: 850px;
+ 
 }
 
 .line1{
@@ -147,16 +148,29 @@ header h1{
     margin-top: 50px;
 }
 
-.heading2{
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 75px;
-    font-weight: bold;
-    color: black;
-    margin-left: 300px;
+.bg{
+    width: 100%;
+    height: 800px;
+    background-color: goldenrod;
+    margin-top: -200px;
+    border-radius: 25px;
 }
 
-.headings2 h2{
-    margin-left: 300px;
+.heading2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 175px;
+    font-weight: bold;
+    color: black;
+    margin-left: 100px;
+    float: left;
+}
+
+.headings2 h1{
+    font-size: 175px;
+    width: 500px;
+    height: 300px;
+    padding-left: 600px;
+    padding-top: px;
 }
 
 .image2{
@@ -164,6 +178,7 @@ header h1{
     height: 500px;
     background-color: blueviolet;
     margin-left: 100px;
+    margin-top: 150px;
 }
 
 .text3 h3{
@@ -174,34 +189,37 @@ header h1{
     width: 100%;
     height: 50px;
     float: left;
-    margin-top: -300px;
+    margin-top: -450px;
+    color: white;
     
 }
 
 .text3 p{
-    font-family: 'Quicksand', sans-serif; 
+    font-family: 'Fredericka the Great', cursive;
     font-size: 30px;
-    margin-left: 990px;
+    font-weight: bold;
+    margin-left: 890px;
     float: left;
     width: 500px;
     height: 500px;
-    background-color: grey;
-    margin-top: -250px;
+    margin-top: -400px;
+    color: white;
 }
 
+.text3 h4{
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 100px;
+    
+}
 
-.image3{
+.line3{
     width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background-image: url(../assets/the\ flash\ 1.png) ;
-    background-position: center;
-    background-size: cover;
-    margin-left: 700px;
-    margin-top: -600px;
+    height: 6px;
+    background-color: black;
+    margin-left: 880px;
+    margin-top: 90px;
+    border-radius: 5px;
 }
-
-
 
 .text h4{
     margin-left: 800px;
@@ -227,5 +245,240 @@ header h1{
     background-size: cover;
     inline-size: 40px;
     margin-left: 800px;
+}
+
+.bg2{
+    width: 100%;
+    background-color: black;
+    border-radius: 35px;
+}
+
+.heading3{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 175px;
+    font-weight: bold;
+    color: black;
+    margin-left: 150px;
+    float: left;
+}
+
+.headings3 h1{
+    font-size: 175px;
+    width: 500px;
+    height: 300px;
+    padding-left: 600px;
+    padding-top: 500px;
+    font-weight: bold;
+}
+
+.col-box{
+    height: 400px;
+    width: 500px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-image: url(../assets/sub\ 1\ 1.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    margin-left: -400px;
+}
+
+.col-box2{
+    height: 400px;
+    width: 500px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-image: url(../assets/sub\ sand\ 2-benzin-preview.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 890px;
+}
+
+.col-box3{
+    height: 350px;
+    width: 564px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-image: url(../assets/sub\ sand\ 3-benzin-preview.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    margin-left: 100px;
+   
+}
+
+.col-box4{
+    height: 241px;
+    width: 428px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-image: url(../assets/sub\ sand\ 4-benzin-preview.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 890px;
+}
+
+.col-box5{
+    height: 376px;
+    width: 564px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-image: url(../assets/sub\ sand\ 5-benzin-preview.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 300px;
+   
+}
+
+.col-box6{
+    height: 282px;
+    width: 564px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-image: url(../assets/sub\ sand\ 6-benzin-preview.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 760px;
+    
+}
+
+.col-box7{
+    height: 317px;
+    width: 564px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-image: url(../assets/sub\ sand\ 7-benzin-preview.png);
+    background-size: cover;
+    background-position:center;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+.col-box8{
+    height: 265px;
+    width: 562px;
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+    background-image: url(../assets/sub\ sand\ 8-benzin-preview.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 900px;
+}
+
+.content{
+    width: 500px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: -300px;
+    float: left ;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white; 
+}
+
+.content2{
+    width: 500px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 100px;
+    float: left ;
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white; 
+}
+
+.content3{
+    width: 500px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 700px;
+    float: left ;
+    margin-top: 180px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white; 
+
+}
+
+.content4{
+    width: 500px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 350px;
+    float: left ;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white; 
+
+}
+
+
+.content5{
+    width: 500px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 900px;
+    float: left ;
+    margin-top: -350px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white; 
+
+}
+
+.content6{
+    width: 500px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 100px;
+    float: left ;
+    margin-top: -260px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white; 
+
+}
+
+.content7{
+    width: 500px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 800px;
+    float: left ;
+    margin-top: -200px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white; 
+
+}
+
+.content8{
+    width: 500px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 370px;
+    float: left ;
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white; 
+
+}
+
+.content h2{
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+.overlay{
+    width: 300px;
+    height: 300px;
+    padding-top: 10px;
+    opacity: 0;
+}
+
+.overlay:hover{
+    cursor: pointer;
+    opacity: 1;
 }
 
