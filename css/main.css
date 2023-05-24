@@ -1,5 +1,6 @@
 .logo{
-    margin-left: 200px;
+   margin-left: 50px;
+   margin-top: px;
 }
 
 nav ul{
@@ -7,17 +8,21 @@ nav ul{
 }
 
 .nav-con{
-    margin-left: 550px;
-    margin-top: -25px;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+
 }
 
 nav li{
     float: left;
-    padding-left: 40px;
+    padding-left: px;
     font-size: 18px;
     font-family: 'Fredericka the Great', cursive;
     color: white;
     font-weight: bold;
+    margin-left: 250px;
+    margin-top: -25px;
 }
 
 nav li:hover{
@@ -32,7 +37,7 @@ nav li:hover{
 
 header{
  background-color: black;
- height: 850px;
+ height: 900px;
  
 }
 
@@ -60,6 +65,13 @@ header h1{
     font-family: 'Fredericka the Great', cursive;
     font-size: 72px;
     color: goldenrod;
+}
+
+footer{
+    background-color: black;
+    font-family: 'Fredericka the Great', cursive;
+    color: red;
+
 }
 
 .button{
@@ -121,11 +133,13 @@ header h1{
 }
 
 .image{
-    background-color: grey;
+    background-image: url(../assets/food\ flying-benzin-preview.png);
+    background-position: center;
+    background-size: cover;
     width: 500px;
     height: 540px;
     margin-left: 700px;
-    margin-top: -450px;
+    margin-top: -455px;
 
 }
 
@@ -170,15 +184,27 @@ header h1{
     width: 500px;
     height: 300px;
     padding-left: 600px;
-    padding-top:  px;
+    padding-top:  200px;
 }
 
 .image2{
-    width: 550px;
-    height: 500px;
-    background-color: blueviolet;
-    margin-left: 100px;
-    margin-top: 150px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/sub\ sandwich\ sticker-benzin-preview.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: px;
+    margin-left: 200px;
+}
+
+.image3{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/logo\ superSub\ -benzin-preview.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: px;
+    margin-left: 550px;
 }
 
 .text3 h3{
@@ -202,14 +228,14 @@ header h1{
     float: left;
     width: 500px;
     height: 500px;
-    margin-top: -400px;
+    margin-top: -380px;
     color: white;
 }
 
 .text3 h4{
     font-family: 'Fredericka the Great', cursive;
     margin-left: 100px;
-    
+    margin-top: px;
 }
 
 .line3{
@@ -251,13 +277,14 @@ header h1{
     width: 100%;
     background-color: black;
     border-radius: 35px;
+  
 }
 
 .heading3{
     font-family: 'Fredericka the Great', cursive;
     font-size: 175px;
     font-weight: bold;
-    color: black;
+    color: goldenrod;
     margin-left: 150px;
     float: left;
 }
