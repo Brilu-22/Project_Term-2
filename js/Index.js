@@ -5,15 +5,15 @@ createYourHero = () =>{
     let heroTotal = 0;
 
     let SubName = document.getElementById("SubName").value;
-    //let size = document.getElementById("size").value;
+    let size = document.getElementById("size").value;
 
-    //if(size === "Normal"){
-       // heroTotal = heroTotal + 5;
- //   }else if(size === "Footlong"){
-   //     heroTotal = heroTotal + 15; 
-  //  }else if(size === "Shhlong"){
-   //    heroTotal = heroTotal + 20;
-   // }
+    if(size === "Normal"){
+        heroTotal = heroTotal + 5;
+    }else if(size === "Footlong"){
+       heroTotal = heroTotal + 15; 
+    }else if(size === "Shhlong"){
+       heroTotal = heroTotal + 20;
+    }
 
 
     let breadOption = document.getElementsByName("baseRadio");
@@ -75,15 +75,15 @@ totalSubCost = () => {
 
     realAmount = 0;
 
-    //let size = document.getElementById("size").value;
+    let size = document.getElementById("size").value;
 
-    //if(size === "Normal"){
-        //realAmount = realAmount + 5;
-  //  }else if(size === "Footlong"){
-       // realAmount = realAmount + 10;
- //   }else if( size === "Shhlong"){
-  //      realAmount = realAmount + 20;
-  //  }
+    if(size === "Normal"){
+        realAmount = realAmount + 5;
+   }else if(size === "Footlong"){
+         realAmount = realAmount + 10;
+  }else if( size === "Shhlong"){
+        realAmount = realAmount + 20;
+    }
 
     
     let breadOption = document.getElementsByName("baseRadio");
