@@ -66,7 +66,7 @@ createYourHero = () =>{
     console.log(orderList);
 
    
-
+    document.getElementById("totalSubCost").innerHTML = "R0.00"
     document.getElementById("subForm").reset();
 
 }
@@ -115,7 +115,7 @@ totalSubCost = () => {
         }
     }
 
-    document.getElementById("totalSubCost").innerHTML = "R" + realAmount + ".00";
+    document.getElementById("totalSubCost").innerHTML = "R" + realAmount + ".00"
 
 }
 
@@ -123,9 +123,10 @@ order = () => {
     let orders = document.getElementById("sub-orders");
     let end = document.getElementById("orderPrice");
 
+    orders.innerHTML = "";
+
     let grandTotal = 0;
 
-    orders.innerHTML = "";
 
     for(let i = 0; i < orderList.length; i++){
         let name = orderList[i].subName;
@@ -138,24 +139,21 @@ order = () => {
 
         grandTotal += price;
 
-       
-
         orders.innerHTML += `
-        
-        <div class="receipt">
-        <div class="receipt-look">
-          <h4 class="receipt-heading">${name}</h4>
-          <p class="receipt-text">Hero size:${Size}</p>
-          <p class="receipt-text">Hero Armour:${bread}</p>
-          <p class="receipt-text">Are you Toast?:${toast}</p>
-          <p class="receipt-text">Hero Sauce:${sauce}</p>
-          <p class="receipt-text">Hero Topps:${toppings}</p>
-          <p class="receipt-text">The Hero Total:${price}</p>
+            <div class="receipt">
+                <div class="receipt-look">
+                    <h4 class="receipt-heading">${name}</h4>
+                    <p class="receipt-text">Hero size:${Size}</p>
+                    <p class="receipt-text">Hero Armour:${bread}</p>
+                    <p class="receipt-text">Are you Toast?:${toast}</p>
+                    <p class="receipt-text">Hero Sauce:${sauce}</p>
+                    <p class="receipt-text">Hero Topps:${toppings.join(', ')}</p>
+                    <p class="receipt-text">The Hero Total:R${price}.00</p>
 
-        </div>
-      </div>`;
+                </div>
+            </div>`;
       
-      end.innerHTML = "R" + grandTotal + ".00";
+        end.innerHTML = "R" + grandTotal + ".00"
       
     }
 }

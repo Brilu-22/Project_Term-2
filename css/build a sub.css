@@ -41,7 +41,7 @@ header{
 }
 
 .bg1{
-    background-color: black;
+    background-color: red;
     margin-top: -50px;
     height: 800px;
 }
@@ -118,30 +118,21 @@ form{
     height: auto;
     border-radius: 20px;
     border: 2px dotted white;
-
-}
-
-.receipt-heading{
     font-family: 'Fredericka the Great', cursive;
     background-color: goldenrod;
     text-decoration: underline;
     box-decoration-break: clone;
-    border: 1px solid white;
+    color: white;
+    margin: 2%;
 }
+
 
 .receipt p {
     font-family: 'Pangolin', cursive;
     font-weight: bold;
 }
 
-.sub-items{
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    border-radius: 5px;
-    margin-top: 15px;
-    font-family: 'Fredericka the Great', cursive; 
-}
+
 
 input{
     margin-top: 15px;
@@ -226,14 +217,7 @@ select{
     margin-top: -700px;
 }
 
-.price{
-    color: goldenrod;
-    background-color: black;
-}
 
-.price h3{
-    font-family: 'Fredericka the Great', cursive; 
-}
 
 .btn-btn-primary{
     background-color: black;
@@ -243,6 +227,28 @@ select{
 .output{
     width: 50%;
     margin:  0 auto;
-    margin-top: 50px;
+    height: 45px;
+
+    border-bottom: 2px solid red;
 }
 
+.price{
+    color: goldenrod;
+    background-color: black;
+}
+
+.price h3{
+    font-family: 'Fredericka the Great', cursive; 
+    float: left;
+}
+
+.sub-items{
+    float: left;
+    margin-left: 48%;
+}
+
+.sub-items h3{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    margin-top: -10px;
+}
