@@ -9,7 +9,7 @@ nav ul{
  
 .nav-con{
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: black;
 }
  
@@ -41,8 +41,8 @@ header{
 }
 
 .bg1{
-    background-color: red;
-    margin-top: -50px;
+    background-color: black;
+    margin-top: -55px;
     height: 800px;
 }
  
@@ -86,12 +86,40 @@ form{
     margin-top: 50px;
     color: white;
     font-family: 'Fredericka the Great', cursive;
+   
+}
+
+.mainSubs{
+    width: 100%;
+    margin:  0 auto;
+    margin-top: -20px;
+    height: 600px;
+    background-color: black;
+}
+
+.mainSubs h2{
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    opacity: 0.8;
+    font-family: 'Fredericka the Great', cursive;
+    color: goldenrod;
 }
 
 .sub-size{
     width: 60%;
     float: left;
     height: 130px;
+}
+
+
+
+.card{
+    margin-top: -500px;
+    border: 5px dotted white;
+    font-family: 'Fredericka the Great', cursive;
+    background-color: goldenrod;
+    border-radius: 10px;
 }
 
 .opposite{
@@ -114,7 +142,7 @@ form{
 }
 
 .receipt{
-    width: 29%;
+    width: 100%;
     height: auto;
     border-radius: 20px;
     border: 2px dotted white;
@@ -213,8 +241,8 @@ select{
     background-image: url(../assets/superSub\ bagpack\ -benzin-preview.png);
     background-position: cover;
     background-size: cover;
-    margin-left: 650px;
-    margin-top: -700px;
+    margin-left: 940px;
+    margin-top: -550px;
 }
 
 
@@ -229,7 +257,7 @@ select{
     margin:  0 auto;
     height: 45px;
 
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid goldenrod;
 }
 
 .price{

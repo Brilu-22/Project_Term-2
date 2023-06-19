@@ -1,51 +1,11 @@
-showSub = () => {
-    let subMonth = document.getElementById('subbies');
-
-    for(let i = 0; i < subData.length; i++){
-
-        let name = subData[i].subName;
-        let Size = subData[i].subSize;
-        let bread = subData[i].subBread;
-        let toast = subData [i].subToast;
-        let toppings = subData[i].subToppings;
-        let sauce = subData[i].subSauce;
-        let price = subData[i].subPrice;
-
-        subMonth.innerHTML +=`
-        
-        <div class="receipt">
-                <div class="receipt-look">
-                    <h4 class="receipt-heading">${name}</h4>
-                    <p class="receipt-text">Hero size:${Size}</p>
-                    <p class="receipt-text">Hero Armour:${bread}</p>
-                    <p class="receipt-text">Are you Toast?:${toast}</p>
-                    <p class="receipt-text">Hero Sauce:${sauce}</p>
-                    <p class="receipt-text">Hero Topps:${toppings.join(', ')}</p>
-                    <p class="receipt-text">The Hero Total:R${price}.00</p>
-
-                </div>
-            </div> 
-        `
-    }
-}
-
-
 let orderList = [];
 
-createYourHero = () =>{
+createYourHero = () => {
 
     let heroTotal = 0;
 
     let SubName = document.getElementById("SubName").value;
-    let size = document.getElementById("size").value;
-
-    if(size === "Normal"){
-        heroTotal = heroTotal + 5;
-    }else if(size === "Footlong"){
-       heroTotal = heroTotal + 15; 
-    }else if(size === "Shhlong"){
-       heroTotal = heroTotal + 20;
-    }
+   
 
 
     let breadOption = document.getElementsByName("baseRadio");
@@ -93,7 +53,7 @@ createYourHero = () =>{
         subToppings: subArray,
         subSauce: sauceArray,
         subPrice: heroTotal,
-    });
+    })
 
     console.log(orderList);
 
@@ -106,16 +66,6 @@ createYourHero = () =>{
 totalSubCost = () => {
 
     realAmount = 0;
-
-    let size = document.getElementById("size").value;
-
-    if(size === "Normal"){
-        realAmount = realAmount + 5;
-   }else if(size === "Footlong"){
-         realAmount = realAmount + 10;
-  }else if( size === "Shhlong"){
-        realAmount = realAmount + 20;
-    }
 
     
     let breadOption = document.getElementsByName("baseRadio");
@@ -172,6 +122,7 @@ order = () => {
         grandTotal += price;
 
         orders.innerHTML += `
+        <div class="col-6"> 
             <div class="receipt">
                 <div class="receipt-look">
                     <h4 class="receipt-heading">${name}</h4>
@@ -183,7 +134,8 @@ order = () => {
                     <p class="receipt-text">The Hero Total:R${price}.00</p>
 
                 </div>
-            </div>`
+            </div>      
+        </div>`
       
         end.innerHTML = "R" + grandTotal + ".00"
       
@@ -193,20 +145,5 @@ order = () => {
 heroCheck = () => {
     let data = JSON.stringify(orderList)
     localStorage.setItem('order',data);
-    window.location.href = '../pages/checkout.html';
+    window.location.href = 'pages/checkout.html'
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

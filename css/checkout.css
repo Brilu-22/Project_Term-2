@@ -1,0 +1,68 @@
+body{
+    background-image: url(../assets/dark\ wall.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.orderside{
+    width: 70%;
+    height: 100vh;
+    float: left;
+    padding-left: 5%;
+}
+
+.orderside h1{
+    font-family: 'Fredericka the Great', cursive;
+    margin-top: 50px;
+    color: goldenrod;
+}
+
+.orderside h3{
+    margin: 0;
+    padding: 0;
+}
+
+.Payment {
+    width: 30%;
+    height: 100vh;
+    float: left;
+    border: 5px dotted white;
+    background-color: transparent;
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.Payment input {
+    width: 50%;
+    margin:  0 auto;
+}
+
+.Payment h2{
+   font-size: 50px;
+   font-weight: 100;
+}
+
+.Payment h3{
+    margin-top: 50px;
+    font-weight: 100;
+ }
+
+.the-image{
+    background-image: url(../assets/logo\ superSub\ -benzin-preview.png);
+    width: 250px;
+    height: 350px;
+    margin-left: 1100px;
+    margin-top: -50px;
+}
+
+.sandwich{
+    background-image: url(../assets/sub\ sand\ 7-benzin-preview.png);
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    margin-top: -250px;
+    margin-left: 20px;
+}
