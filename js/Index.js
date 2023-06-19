@@ -1,34 +1,3 @@
-showSub = () => {
-    let subMonth = document.getElementById('subbies');
-
-    for(let i = 0; i < subData.length; i++){
-
-        let name = subData[i].subName;
-        let Size = subData[i].subSize;
-        let bread = subData[i].subBread;
-        let toast = subData [i].subToast;
-        let toppings = subData[i].subToppings;
-        let sauce = subData[i].subSauce;
-        let price = subData[i].subPrice;
-
-        subMonth.innerHTML +=`
-        
-        <div class="receipt">
-                <div class="receipt-look">
-                    <h4 class="receipt-heading">${name}</h4>
-                    <p class="receipt-text">Hero size:${Size}</p>
-                    <p class="receipt-text">Hero Armour:${bread}</p>
-                    <p class="receipt-text">Are you Toast?:${toast}</p>
-                    <p class="receipt-text">Hero Sauce:${sauce}</p>
-                    <p class="receipt-text">Hero Topps:${toppings.join(', ')}</p>
-                    <p class="receipt-text">The Hero Total:R${price}.00</p>
-
-                </div>
-            </div> 
-        `
-    }
-}
-
 
 let orderList = [];
 
@@ -93,7 +62,7 @@ createYourHero = () =>{
         subToppings: subArray,
         subSauce: sauceArray,
         subPrice: heroTotal,
-    });
+    })
 
     console.log(orderList);
 
@@ -179,7 +148,7 @@ order = () => {
                     <p class="receipt-text">Hero Armour:${bread}</p>
                     <p class="receipt-text">Are you Toast?:${toast}</p>
                     <p class="receipt-text">Hero Sauce:${sauce}</p>
-                    <p class="receipt-text">Hero Topps:${toppings.join(', ')}</p>
+                    <p class="receipt-text">Hero Topps:${toppings}</p>
                     <p class="receipt-text">The Hero Total:R${price}.00</p>
 
                 </div>

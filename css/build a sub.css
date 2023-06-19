@@ -71,7 +71,10 @@ header h1{
     font-size: 72px;
     color: goldenrod;
 }
- 
+
+body{
+    overflow-x: hidden;
+}
 
 .line2{
     width: 90%;
@@ -241,7 +244,7 @@ select{
     background-image: url(../assets/superSub\ bagpack\ -benzin-preview.png);
     background-position: cover;
     background-size: cover;
-    margin-left: 940px;
+    margin-left: 740px;
     margin-top: -550px;
 }
 
@@ -253,8 +256,8 @@ select{
 }
 
 .output{
-    width: 50%;
-    margin:  0 auto;
+    width: 700px;
+    margin-left: -50px;
     height: 45px;
 
     border-bottom: 2px solid goldenrod;

@@ -24,7 +24,7 @@ showcheck = () => {
                 <p><strong>Hero Size:</strong>${Size}</p>
                 <p><strong>Hero Armour:</strong>${bread}</p>
                 <p><strong>Are you Toast:</strong>${toast}</p>
-                <p><strong>Hero Sauce:</strong>${toppings.join(', ')}</p>
+                <p><strong>Hero Sauce:</strong>${toppings}</p>
                 <p><strong>Hero Topps:</strong>${sauce}</p>
                 <p><strong>Hero Total:</strong>R${price}.00</p>
             </div>
